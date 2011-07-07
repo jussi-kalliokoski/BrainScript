@@ -58,3 +58,9 @@ Other
 
  * [CodeExpression.js](https://github.com/jussi-kalliokoski/CodeExpression.js) supports BrainScript parsing.
  * [brainfuck](http://www.esolangs.org/wiki/Brainfuck) on [esolangs.org](http://www.esolangs.org).
+ * [JavaScript specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+
+Authors
+-------
+ * Juha Halme
+ * [Jussi Kalliokoski](https://github.com/jussi-kalliokoski/)
