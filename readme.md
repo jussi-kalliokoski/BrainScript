@@ -44,3 +44,10 @@ The JavaScript equivalent would be
 alert('Hello world.');
 
 ```
+Do note that the example will only work in Chrome, and older versions of Firefox.
+
+Other
+-----
+
+ * [https://github.com/jussi-kalliokoski/CodeExpression.js](CodeExpression.js) supports BrainScript parsing.
+ * [http://www.esolangs.org/wiki/Brainfuck](brainfuck) on [http://www.esolangs.org](esolangs.org).
