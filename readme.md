@@ -49,5 +49,5 @@ Do note that the example will only work in Chrome, and older versions of Firefox
 Other
 -----
 
- * [https://github.com/jussi-kalliokoski/CodeExpression.js](CodeExpression.js) supports BrainScript parsing.
- * [http://www.esolangs.org/wiki/Brainfuck](brainfuck) on [http://www.esolangs.org](esolangs.org).
+ * [CodeExpression.js](https://github.com/jussi-kalliokoski/CodeExpression.js) supports BrainScript parsing.
+ * [brainfuck](http://www.esolangs.org/wiki/Brainfuck) on [esolangs.org](http://www.esolangs.org).
