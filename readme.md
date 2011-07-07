@@ -46,6 +46,13 @@ alert('Hello world.');
 ```
 Do note that the example will only work in Chrome, and older versions of Firefox.
 
+Compiling
+---------
+
+The compiler folder inludes a JavaScript -> BrainScript compiler for whatever purposes you may have for such a thing. Currently known issues are bloated size (this is not noticeable when gzipped) and memory usage. Also, it introduces some public variales, but just put all your javascript in a single file and compile, and you should be all right!
+
+Like any credible language, BrainScript also features a compiler written in BrainScript, you can find it in ``` compiler/self-compiler.html ``` .
+
 Other
 -----
 
