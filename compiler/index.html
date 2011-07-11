@@ -3,25 +3,17 @@
 	<head>
 		<title>BrainScript Compiler</title>
 		<script>
-function intToUnderscores(i){
-	var str = '', mask = 128, ch;
-	if (!i){
-		return '(_-_)';
-	}
-	while (i){
-		ch = i >= mask ? mask : 0;
-		i -= ch;
-		if (ch){
-			str += (str ? '+' : '') + '(_';
-			while (ch > 1){
-				ch /= 2;
-				str += '<<_';
-			}
-			str += ')';
-		}
-		mask /= 2;
-	}
-	return '(' + str + ')';
+_ = 1; __ = 2; ___ = 3; ____ = 4; _____ = 5; ______ = 6; _______ = 7;		
+		
+function intToUnderscores(i) {
+	if (i == 0) 		return '(_-_)';
+	else if (i < 3)		return Array(i + 1).join('_');
+	else if (i == 3)	return '__+_';
+	
+	var c 	= (Math.abs((2 << Math.floor(Math.log(i)/Math.log(2) - 1)) - i) <= Math.abs(((2 << Math.floor(Math.log(i)/Math.log(2) - 1)) * 2) - i)) ? 1 : 0;
+	var str = '__<<' + intToUnderscores(Math.floor(Math.log(i)/Math.log(2) - c)), num = eval(str);
+	
+	return '(' + str + ')' + (((i - num) == 0) ? '' : ((c == 1) ? '+' : '-') + '(' + intToUnderscores(Math.abs(i - num)) + ')');
 }
 
 function convert(str){
