@@ -80,9 +80,9 @@ Other
 
  * [CodeExpression.js](https://github.com/jussi-kalliokoski/CodeExpression.js) supports BrainScript parsing.
  * [brainfuck](http://www.esolangs.org/wiki/Brainfuck) on [esolangs.org](http://www.esolangs.org).
- * [JavaScript specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+ * [JavaScript specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm) or [EcmaScript 5th edition](http://es5.github.com/) (There's some dispute whether or not BrainScript is compatible with ES5)
 
 Authors
 -------
- * Juha Halme
+ * [Juha Halme](https://github.com/juha-halme/)
  * [Jussi Kalliokoski](https://github.com/jussi-kalliokoski/)
